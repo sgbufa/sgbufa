@@ -9,16 +9,17 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="viewport" content="width=device-width" />
   <link href="css/bootstrap.css" rel="stylesheet" />
-  <!-- icon -->
+  <link href="css/gsdk.css" rel="stylesheet"/>
+  <link href="css/demo.css" rel="stylesheet" />  <!-- icon -->
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
+<div class="parallax">
+  <nav class="navbar navbar-default" style="height:80px">
     <div class="container-fluid"style="background-color:">
       <div class="navbar-header" style="background-color:">
         <a class="navbar brand" href="#"><h3>时光步伐</h3></a>
-        
       </div>
       <div>
       	<ul class="nav navbar-na" style="margin-top:25px">
@@ -29,5 +30,6 @@
       </div>
     </div>
   </nav>
+</div>
 </body>
 </html>
