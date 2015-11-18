@@ -9,12 +9,15 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" />
   <link href="css/demo.css" rel="stylesheet" /> 
+  <link href="css/slider.css" rel="stylesheet" /> 
   <link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </head>
 <body>
   <nav class="navbar navbar-inverse" role="navigation">  
@@ -53,15 +56,20 @@
   </nav>
   <!-- end  navbar -->
   <div class="wrapper">
-    <div class="container">
-      <h1>我的第一个 JavaScript 程序</h1>
-<p id="demo">这是一个段落</p>
-
-<button type="button" onclick="show()">显示日期</button>
-
-        
+      <div class="box">
+        <ul class="list">
+          <li><img class="slide" src="../sgbufa/image/IMG_3551.jpg" style="width:600px; height:450"></li>
+          <li><img class="slide" src="../sgbufa/image/IMG_3526.jpg" style="width:600px; height:450"></li>
+          <li><img class="slide" src="../sgbufa/image/IMG_3554.jpg" style="width:600px; height:450"></li>
+          <li><img class="slide" src="../sgbufa/image/IMG_3633.jpg" style="width:600px; height:450"></li> 
+        </ul>
+        <div class="index">
+          <a href="javascript:" class="index_1">1</a>
+          <a href="javascript:" class="index_1">2</a>
+          <a href="javascript:" class="index_1">3</a>
+          <a href="javascript:" class="index_1">4</a>
+        </div>
       </div>
-    </div>
   </div>
 </body>
 </html>
