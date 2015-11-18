@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Case</title>
+  <title>美好时光 - 步伐尽在脚下</title>
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="img/favicon.ico" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -28,35 +28,40 @@
       <a class="navbar-brand" href="#">时光步伐</a>
     </div>
 
-  <div class="collapse navbar-collapse" id="example-navbar-collapse" style="margin-top:10px; "> 
-    <ul class="nav navbar-nav">
-      <li><a href="#">首页</a></li>
-      <li><a href="#"><i class="fa fa-map-signs"> 初入异境</i></a></li>    
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          <i class="fa fa-puzzle-piece"> 崭新之旅</i>
-          <b class="caret"></b>
-        </a>           
-        <ul class = "dropdown-menu">             
-          <li class = "divider"></li>
-          <li><a href = "#">Separated link</a></li>               
-          <li class = "divider"></li>
-          <li><a href = "#">One more separated link</a></li>
-        </ul>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#" data-toggle="" data-target="" onclick="www.163.com"><i class="fa fa-sign-in"> 退出</i></a></li>
-      
-    </ul>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse" style="margin-top:10px; "> 
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#">首页</a></li>
+        <li class=""><a href="#"><i class="fa fa-map-signs"> 初入异境</i></a></li>    
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-puzzle-piece"> 崭新之旅</i>
+            <b class="caret"></b>
+          </a>           
+          <ul class = "dropdown-menu">             
+            <li class = "divider"></li>
+            <li><a href = "#">Separated link</a></li>               
+            <li class = "divider"></li>
+            <li><a href = "#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="" data-target="" onclick=""><i class="fa fa-sign-in"> 登陆</i></a></li>
+        <li><a href="#" data-toggle="" data-target="" onclick="www.163.com"><i class="fa fa-registered"> 注册</i></a></li>     
+      </ul>
+    </div>
+  </nav>
+  <!-- end  navbar -->
+  <div class="wrapper">
+    <div class="container">
+      <h1>我的第一个 JavaScript 程序</h1>
+<p id="demo">这是一个段落</p>
+
+<button type="button" onclick="show()">显示日期</button>
+
+        
+      </div>
+    </div>
   </div>
-
-</nav>
-
-<div class="container">
-  <h3>Navbar With Dropdown</h3>
-  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
-</div>
-
 </body>
 </html>
